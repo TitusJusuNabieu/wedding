@@ -18,29 +18,62 @@ const weddingData = {
       description: "Charming groom, full of love and passion"
     }
   },
-  agenda: [
-    { time: "5:00 PM", event: "Guest Arrival", details: "Welcome cocktails & light hors d'oeuvres, guest book signing, photo booth, photo session" },
-    { time: "5:50 PM", event: "Guests Seated", details: "Guests advised not to interrupt the photographer's angles" },
-    { time: "6:00 PM", event: "Grand Entrance", details: "Parents of the groom and bride, families, friends, godparents, best men, bridesmaids, bride and groom" },
-    { time: "6:40 PM", event: "Opening Prayer", details: "Volunteer Imam" },
-    { time: "6:45 PM", event: "MCs Welcome Remarks", details: "" },
-    { time: "6:50 PM", event: "Couple's First Dance", details: "With special guests" },
-    { time: "7:00 PM", event: "Toasts", details: "Toasts to health of bride, groom, families, and guests by various speakers" },
-    { time: "7:20 PM", event: "Dinner Service", details: "With background music and lovely ambience" },
-    { time: "8:10 PM", event: "Speeches", details: "Speeches from friends of bride and groom" },
-    { time: "8:20 PM", event: "Godparent Speech", details: "By David Moinina Sengeh" },
-    { time: "8:30 PM", event: "Cake Blessing", details: "Prayer on the cake by Volunteer Imam" },
-    { time: "8:35 PM", event: "Cake Cutting", details: "By bride and groom" },
-    { time: "8:45 PM", event: "Couple's Second Dress", details: "With live band" },
-    { time: "9:00 PM", event: "Second Entrance", details: "By best men, bridesmaids, bride and groom with DJ" },
-    { time: "9:40 PM", event: "Special Entertainment", details: "Guest Artist performance" },
-    { time: "10:00 PM", event: "Gift Presentation", details: "To the couple" },
-    { time: "10:30 PM", event: "Couple Dances", details: "Bride with Dad, Groom with Mom (DJ)" },
-    { time: "10:35 PM", event: "Vote of Thanks", details: "By Mrs. Abibatu Lamin" },
-    { time: "10:40 PM", event: "Couple's Final Dress", details: "With live band" },
-    { time: "11:00 PM", event: "Couple's Third Entrance", details: "With DJ" },
-    { time: "11:00 PM", event: "Party", details: "Dance party with DJ Rampage" }
-  ],
+  agenda :[
+  { time: "5:00 PM", event: "Guest Arrival", details: "Welcome cocktails & light hors d'oeuvres, guest book signing, photo booth, photo session" },
+  { time: "5:50 PM", event: "Guests Seated", details: "Guests advised not to interrupt the photographer's angles" },
+  {
+    time: "6:00 PM",
+    event: "Grand Entrance",
+    details: `Order:
+    1. Parents of the groom
+    2. Parent of the bride
+    3. Families of the bride
+    4. Friends of the bride
+    5. Godparents of Groom (David Moinina Sengeh & Katherine Anne Krontiris, Juldeh Jalloh & Isa Jalloh)
+    6. Godparents of Bride (Amidu Barrie & Tigidankay Barrie)
+    7. Best-men and Bridesmaids
+    8. Bride and groom`
+  },
+  { time: "6:40 PM", event: "Opening Prayer", details: "Volunteer Imam" },
+  { time: "6:45 PM", event: "MCs Welcome Remarks", details: "" },
+  { time: "6:50 PM", event: "Couple's First Dance", details: "With special guests" },
+  {
+    time: "7:00 PM",
+    event: "Toasts",
+    details: `Toast to Bride & Groom - Proposed by Mrs Isatu Baldeh, Response by Alfred Cole
+    Toast to Bride's Family - Proposed by Mrs Tigidankay Barrie, Response by Abby Dad family member
+    Toast to Groom's Family - Proposed by Mohamed F. Lamin, Response by Dr. Edward Magbity
+    Toast to Guests - Proposed by Mrs Abigail Kromanty, Response by Mrs Barry (Abi's mom)`
+  },
+  {
+    time: "7:20 PM",
+    event: "Dinner Service",
+    details: `Menu:
+    Appetizers: Rice Bread, Banana Bread, Rich Cake, Chin Chin
+    Seafood: Baracuda fish dressed with Salad, Shrimps
+    Drinks: Ginger Beer, Bissab, Orange juice, Pineapple juice, Apple juice, Pure Heaven Non Alcohol, 
+    Fanta, Coke, Sprite, Vimto, Malt
+    
+    Background music and lovely ambience`
+  },
+  {
+    time: "8:10 PM",
+    event: "Speeches",
+    details: "For the Bride - Stephine Musu Momoh\nFor the Groom - Sulaiman Burria"
+  },
+  { time: "8:20 PM", event: "Godparent Speech", details: "By David Moinina Sengeh" },
+  { time: "8:30 PM", event: "Cake Blessing", details: "Prayer on the cake by Volunteer Imam" },
+  { time: "8:35 PM", event: "Cake Cutting", details: "By bride and groom" },
+  { time: "8:45 PM", event: "Couple's Second Dress", details: "With live band" },
+  { time: "9:00 PM", event: "Second Entrance", details: "By best men, bridesmaids, bride and groom with DJ" },
+  { time: "9:40 PM", event: "Special Entertainment", details: "Guest Artist performance" },
+  { time: "10:00 PM", event: "Gift Presentation", details: "To the couple" },
+  { time: "10:30 PM", event: "Couple Dances", details: "Bride with Dad, Groom with Mom (DJ)" },
+  { time: "10:35 PM", event: "Vote of Thanks", details: "By Mrs. Abibatu Lamin" },
+  { time: "10:40 PM", event: "Couple's Final Dress", details: "With live band" },
+  { time: "11:00 PM", event: "Couple's Third Entrance", details: "With DJ" },
+  { time: "11:00 PM", event: "Party", details: "Dance party with DJ Rampage" }
+],
   menu: {
     appetizers: ["Fish Balls", "Vegetable Spring Rolls", "Finger Sandwich", "Sausage and Spicy Plantain"],
     mainDishes: {
