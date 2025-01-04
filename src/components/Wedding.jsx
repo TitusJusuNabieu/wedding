@@ -76,11 +76,11 @@ const weddingData = {
 ],
   menu: {
     appetizers: ["Rice Bread", "Banana Bread", "Rich Cake","Chin Chin"],
+     drinks:["Ginger Beer","Bissab","Orange juice","Pineapple juice", "Apple juice", "Pure Heaven Non Alcohol", "Fanta",
+"Coke", "Sprite", "Vimto", "Malt"],
     mainDishes: {
       riceDishes: ["Jollof Rice", "Egg and Vegetable Fried Rice", "Buttered Rice"],
       chicken: ["Grilled Chicken", "Fried Chicken"],
-      drinks:["Ginger Beer","Bissab","Orange juice","Pineapple juice", "Apple juice", "Pure Heaven Non Alcohol", "Fanta",
-"Coke", "Sprite", "Vimto", "Malt"],
       beef: ["Swedish Beef Meatballs", "Roasted Beef in Hot Pepper Sauce"],
       seafood: ["Honey Garlic Shrimps", "Butter Garlic Shrimps","Barracuda fish dressed with Salad"]
     },
@@ -208,12 +208,12 @@ const WeddingReceptionApp = () => {
           <h3 className="font-semibold text-sky-700 mb-3">Appetizers</h3>
           <div className="grid md:grid-cols-2 gap-2">
             {weddingData.menu.appetizers.map((item, index) => (
-              <div
-                key={index}
-                className="bg-pink-50 p-2 rounded text-sky-900"
-              >
-                {item}
-              </div>
+                <div
+                    key={index}
+                    className="bg-pink-50 p-2 rounded text-sky-900"
+                >
+                  {item}
+                </div>
             ))}
           </div>
         </div>
@@ -221,32 +221,48 @@ const WeddingReceptionApp = () => {
         <div>
           <h3 className="font-semibold text-sky-700 mb-3">Main Dishes</h3>
           {Object.entries(weddingData.menu.mainDishes).map(([category, items]) => (
-            <div key={category} className="mb-3">
-              <h4 className="font-medium text-sky-600 capitalize mb-2">{category}</h4>
-              <div className="grid md:grid-cols-2 gap-2">
-                {items.map((item, index) => (
-                  <div
-                    key={index}
-                    className="bg-pink-50 p-2 rounded text-sky-900"
-                  >
-                    {item}
-                  </div>
-                ))}
+              <div key={category} className="mb-3">
+                <h4 className="font-medium text-sky-600 capitalize mb-2">{category}</h4>
+                <div className="grid md:grid-cols-2 gap-2">
+                  {items.map((item, index) => (
+                      <div
+                          key={index}
+                          className="bg-pink-50 p-2 rounded text-sky-900"
+                      >
+                        {item}
+                      </div>
+                  ))}
+                </div>
               </div>
-            </div>
           ))}
         </div>
+
+
+        <div>
+          <h3 className="font-semibold text-sky-700 mb-3">Drinks</h3>
+          <div className="grid md:grid-cols-2 gap-2">
+            {weddingData.menu.drinks.map((item, index) => (
+                <div
+                    key={index}
+                    className="bg-pink-50 p-2 rounded text-sky-900"
+                >
+                  {item}
+                </div>
+            ))}
+          </div>
+        </div>
+
 
         <div>
           <h3 className="font-semibold text-sky-700 mb-3">Desserts</h3>
           <div className="grid md:grid-cols-2 gap-2">
             {weddingData.menu.desserts.map((item, index) => (
-              <div
-                key={index}
-                className="bg-pink-50 p-2 rounded text-sky-900"
-              >
-                {item}
-              </div>
+                <div
+                    key={index}
+                    className="bg-pink-50 p-2 rounded text-sky-900"
+                >
+                  {item}
+                </div>
             ))}
           </div>
         </div>
@@ -255,28 +271,28 @@ const WeddingReceptionApp = () => {
   );
 
   return (
-    <div className="min-h-screen bg-pink-50 p-4 flex flex-col">
-      <div className="max-w-4xl mx-auto w-full flex-grow">
-        {/* Large, easy-to-understand navigation */}
-        <div className="grid grid-cols-4 gap-3 mb-6">
-          <NavButton
-            label="Couple"
-            icon={Heart}
-            section="couple"
-          />
-          <NavButton
-            label="Event Details"
-            icon={Menu}
-            section="overview"
-          />
-          <NavButton
-            label="Day Schedule"
-            icon={Clock}
-            section="agenda"
-          />
-          <NavButton
-            label="Food Menu"
-            icon={Utensils}
+      <div className="min-h-screen bg-pink-50 p-4 flex flex-col">
+        <div className="max-w-4xl mx-auto w-full flex-grow">
+          {/* Large, easy-to-understand navigation */}
+          <div className="grid grid-cols-4 gap-3 mb-6">
+            <NavButton
+                label="Couple"
+                icon={Heart}
+                section="couple"
+            />
+            <NavButton
+                label="Event Details"
+                icon={Menu}
+                section="overview"
+            />
+            <NavButton
+                label="Day Schedule"
+                icon={Clock}
+                section="agenda"
+            />
+            <NavButton
+                label="Food Menu"
+                icon={Utensils}
             section="menu"
           />
         </div>
