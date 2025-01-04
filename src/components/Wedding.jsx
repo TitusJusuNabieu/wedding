@@ -75,12 +75,14 @@ const weddingData = {
   { time: "11:00 PM", event: "Party", details: "Dance party with DJ Rampage" }
 ],
   menu: {
-    appetizers: ["Fish Balls", "Vegetable Spring Rolls", "Finger Sandwich", "Sausage and Spicy Plantain"],
+    appetizers: ["Rice Bread", "Banana Bread", "Rich Cake","Chin Chin"],
     mainDishes: {
       riceDishes: ["Jollof Rice", "Egg and Vegetable Fried Rice", "Buttered Rice"],
       chicken: ["Grilled Chicken", "Fried Chicken"],
+      drinks:["Ginger Beer","Bissab","Orange juice","Pineapple juice", "Apple juice", "Pure Heaven Non Alcohol", "Fanta",
+"Coke", "Sprite", "Vimto", "Malt"],
       beef: ["Swedish Beef Meatballs", "Roasted Beef in Hot Pepper Sauce"],
-      seafood: ["Honey Garlic Shrimps", "Butter Garlic Shrimps"]
+      seafood: ["Honey Garlic Shrimps", "Butter Garlic Shrimps","Barracuda fish dressed with Salad"]
     },
     desserts: ["Wedding Cake", "Ice Cream/Yogurt", "Fruit Salad"]
   }
