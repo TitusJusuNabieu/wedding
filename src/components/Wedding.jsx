@@ -43,7 +43,7 @@ const weddingData = {
     event: "Toasts",
     details: `Toast to Bride & Groom - Proposed by Mrs Isatu Baldeh, Response by Alfred Cole
     Toast to Bride's Family - Proposed by Mrs Tigidankay Barrie, Response by Abby Dad family member
-    Toast to Groom's Family - Proposed by Mohamed F. Lamin, Response by Dr. Edward Magbity
+    Toast to Groom's Family - Proposed by Mohamed F. Lamin, Response by Sallay Kawa
     Toast to Guests - Proposed by Mrs Abigail Kromanty, Response by Mrs Barry (Abi's mom)`
   },
   {
@@ -63,7 +63,7 @@ const weddingData = {
     details: "For the Bride - Stephine Musu Momoh\nFor the Groom - Sulaiman Burria"
   },
   { time: "8:20 PM", event: "Godparent Speech", details: "By David Moinina Sengeh" },
-  { time: "8:30 PM", event: "Cake Blessing", details: "Prayer on the cake by Volunteer Imam" },
+  { time: "8:30 PM", event: "Cake Blessing", details: "By Alhaji Ramadan Jalloh" },
   { time: "8:35 PM", event: "Cake Cutting", details: "By bride and groom" },
   { time: "8:45 PM", event: "Couple's Second Dress", details: "With live band" },
   { time: "9:00 PM", event: "Second Entrance", details: "By best men, bridesmaids, bride and groom with DJ" },
