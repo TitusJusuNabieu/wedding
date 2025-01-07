@@ -28,13 +28,14 @@ const weddingData = {
     1. Parents of the groom
     2. Parent of the bride
     3. Families of the bride
+    3. Families of the groom
     4. Friends of the bride
     5. Godparents of Groom (David Moinina Sengeh & Katherine Anne Krontiris, Juldeh Jalloh & Isa Jalloh)
     6. Godparents of Bride (Amidu Barrie & Tigidankay Barrie)
     7. Best-men and Bridesmaids
     8. Bride and groom`
   },
-  { time: "6:40 PM", event: "Opening Prayer", details: "Volunteer Imam" },
+  { time: "6:40 PM", event: "Opening Prayer", details: "Sheik Alhaji Abdul Sesay" },
   { time: "6:45 PM", event: "MCs Welcome Remarks", details: "" },
   { time: "6:50 PM", event: "Couple's First Dance", details: "With special guests" },
   {
@@ -75,14 +76,15 @@ const weddingData = {
   { time: "11:00 PM", event: "Party", details: "Dance party with DJ Rampage" }
 ],
   menu: {
-    appetizers: ["Rice Bread", "Banana Bread", "Rich Cake","Chin Chin"],
+    // appetizers: ["Rice Bread", "Banana Bread", "Rich Cake","Chin Chin"],
      drinks:["Ginger Beer","Bissab","Orange juice","Pineapple juice", "Apple juice", "Pure Heaven Non Alcohol", "Fanta",
-"Coke", "Sprite", "Vimto", "Malt"],
+"Coke", "Sprite", "Vimto", "Malt","Extra Juice"],
     mainDishes: {
+       seafood: ["Honey Garlic Shrimps", "Butter Garlic Shrimps","Barracuda fish dressed with Salad"],
       riceDishes: ["Jollof Rice", "Egg and Vegetable Fried Rice", "Buttered Rice"],
       chicken: ["Grilled Chicken", "Fried Chicken"],
-      beef: ["Swedish Beef Meatballs", "Roasted Beef in Hot Pepper Sauce"],
-      seafood: ["Honey Garlic Shrimps", "Butter Garlic Shrimps","Barracuda fish dressed with Salad"]
+      beef: ["Swedish Beef Meatballs", "Roasted Beef in Hot Pepper Sauce"]
+
     },
     desserts: ["Wedding Cake", "Ice Cream/Yogurt", "Fruit Salad"]
   }
@@ -204,19 +206,19 @@ const WeddingReceptionApp = () => {
     <div className="p-6 bg-white rounded-lg shadow-md border-2 border-sky-200">
       <h2 className="text-2xl font-bold text-sky-700 mb-6 text-center">Wedding Reception Menu</h2>
       <div className="space-y-4">
-        <div>
-          <h3 className="font-semibold text-sky-700 mb-3">Appetizers</h3>
-          <div className="grid md:grid-cols-2 gap-2">
-            {weddingData.menu.appetizers.map((item, index) => (
-                <div
-                    key={index}
-                    className="bg-pink-50 p-2 rounded text-sky-900"
-                >
-                  {item}
-                </div>
-            ))}
-          </div>
-        </div>
+        {/*<div>*/}
+        {/*  <h3 className="font-semibold text-sky-700 mb-3">Appetizers</h3>*/}
+        {/*  <div className="grid md:grid-cols-2 gap-2">*/}
+        {/*    {weddingData.menu.appetizers.map((item, index) => (*/}
+        {/*        <div*/}
+        {/*            key={index}*/}
+        {/*            className="bg-pink-50 p-2 rounded text-sky-900"*/}
+        {/*        >*/}
+        {/*          {item}*/}
+        {/*        </div>*/}
+        {/*    ))}*/}
+        {/*  </div>*/}
+        {/*</div>*/}
 
         <div>
           <h3 className="font-semibold text-sky-700 mb-3">Main Dishes</h3>
